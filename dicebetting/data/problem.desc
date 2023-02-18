@@ -1,0 +1,16 @@
+normal random 1 10 1 5
+normal random 1 10 1 5
+normal random 1 100 1 5
+normal random 1 100 1 5
+normal random 1 100 1 50
+normal random 1 100 1 50
+normal random 1 10000 1 500
+normal random 1 10000 1 500
+normal random 1 10000 1 500
+normal random 50 10000 1 500
+normal random 50 10000 1 500
+normal random 50 10000 1 500
+normal random 50 10000 1 500
+normal random 50 10000 1 500
+normal exactly 10000 500
+normal exactly 10000 500

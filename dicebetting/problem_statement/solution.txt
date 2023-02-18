@@ -1,0 +1,7 @@
+The problem is to calculate the probability that we will see at least K different values if we throw S-sided die N times.
+
+After we have seen l different values, with probability l/s we throw a value we have already seen. Hence with probability (s - l) / s we throw a value that we haven't seen.
+
+This simple idea allows us to write a simple reccurence for a dynamic programming algorithm working in time O(NK). The state is (i, j), where i is the number of throws and l the number of different values seen so far.
+
+Difficulty: 50

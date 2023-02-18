@@ -1,0 +1,27 @@
+\problemname{Racetrack}
+
+% \illustration{.3}{6116909288_43864c801c_z.jpg}{Picture by \href{https://www.flickr.com/photos/groovygray/6116909288/}{Graham Evans}}
+\illustration{.3}{race.png}
+
+There is a racetrack where $n$ players complete laps.
+Each player has their own maximum speed.
+In this racetrack, overtaking is only possible near the finish line at every lap:
+when a player approaches a slower player, she will stay behind him until at the finish line.
+At the finish line, all players crossing the line at the same time resume driving at their maximum speed (so faster players overtake slower ones).
+Initially, all players start at the finish line.
+Given the lap time and the number of laps to complete for each player, calculate the times they complete the race in.
+
+\section*{Input}
+The first line contains an integer $n$ ($1 \leq n \leq 5\,000$), the number of players.
+The following $n$ lines contain the players' lap time and number of laps to complete:
+the $i$-th line contains two integers $t_i$ and $c_i$ ($1 \leq t_i \leq 10^6$, $1 \leq c_i \leq 1\,000$),
+the lap time and the number of laps to complete for player $i$.
+The players are sorted in decreasing order of speed, that is, $t_1 \leq t_2 \leq \ldots \leq t_n$.
+
+\section*{Output}
+Output $n$ lines; the $i$'th line must contain the time that player $i$ completes the race.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../challenge-2016"
+%%% End:

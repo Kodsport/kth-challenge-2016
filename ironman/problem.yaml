@@ -1,0 +1,6 @@
+source: KTH Challenge 2016
+author: Marc Vinyals
+rights_owner: KTH
+license: cc by-sa
+validator_flags: float_tolerance 1e-6
+
